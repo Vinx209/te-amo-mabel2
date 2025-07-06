@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Te Amo Mabel</title>
   <style>
     body, html {
@@ -52,10 +52,12 @@
 <body>
   <canvas id="matrix"></canvas>
   <h1 class="mensaje">Te Amo Mabel</h1>
-  <audio id="audio" autoplay loop>
-    <source src="como_tu.mp3" type="audio/mpeg">
+
+  <audio id="audio" loop autoplay>
+    <source src="como_tu.mp3" type="audio/mpeg" />
     Tu navegador no soporta audio HTML5.
   </audio>
+
   <script>
     console.log("Iniciando animación Matrix");
 
@@ -95,6 +97,8 @@
         "Mabel 💚",
         "Mi razón",
         "Contigo siempre",
+        "Guapa",
+        "Miamor",
         "Hermosa"
       ];
       const texto = frases[Math.floor(Math.random() * frases.length)];
